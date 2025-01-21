@@ -22,7 +22,6 @@
 }
 
 .navbar{
-    margin: 0px 185px 0px 185px;
     font-size: 1.2rem;
     font-weight: 500;
     display: flex;
@@ -53,4 +52,67 @@
     border: none;
     border-radius: 12px;
     background: rgb(254, 163, 1);
+}
+
+
+/** banner section style **/
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    gap: 30px;
+}
+
+.banner-contant{
+    width: 600px;
+}
+
+.banner-hero{
+    width: 400px;
+    margin-right: 65px;
+}
+
+h1{
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 30px;
+
+}
+
+.empowering{
+    color: rgb(254, 163, 1);
+}
+.towards-vision{
+    color: rgb(1, 172, 253);
+}
+
+.banner-description{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: rgb(17, 17, 17);
+    text-align: left;
+    margin-bottom: 35px;
+
+}
+
+.btn{
+    font-size: 1.5rem;
+    font-weight: 600;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+   background: rgb(17, 17, 17);
+}
+
+
+
+/** shered style **/
+
+.margin{
+    margin: 30px 185px 0px 185px;
+
 }
