@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+/** navbar style **/
+
+.nav-items{
+    margin: 25px 140px 25px 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.logo-img{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.navbar{
+    margin: 0px 185px 0px 185px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    display: flex;
+    gap: 30px;
+    
+}
+
+#home{
+    color: rgb(254, 163, 1);
+}
+#about{
+    color: rgb(1, 172, 253);
+}
+#facilities{
+    color: rgb(5, 212, 223);
+}
+#admission{
+    color: rgb(93, 88, 239);
+}
+
+.nav-btn{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    border: none;
+    border-radius: 12px;
+    background: rgb(254, 163, 1);
+}
