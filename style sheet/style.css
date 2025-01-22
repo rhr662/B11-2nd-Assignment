@@ -223,7 +223,7 @@
 .stories-container{
     width: 540.27px;
     height: 630.52px;
-    position: absolute;
+    position: relative;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
@@ -233,7 +233,7 @@
 .main-container{
     width: 540.27px;
     height: 630.52px;
-    position: relative;
+    position: static;
     display: inline-block;
     border-radius: 16px;
     background: rgb(255, 255, 255);
@@ -247,7 +247,7 @@
 }
 
 .main-content-btn{
-    position: relative;
+    position: absolute;
     bottom: 35px;
     left: 30px;
     width: 180px;
@@ -287,7 +287,7 @@
 .sub-container{
     width: 290.69px;
     height: 301.61px;
-    position: relative;
+    position: static;
     display: inline-block;
     border-radius: 16px;
     background: rgb(255, 255, 255);
@@ -313,30 +313,38 @@
 }
 
 
+.view-all{
+    
+    text-align: center;
+}
+
+
 .section-btn{
     font-size: 1.5rem;
     font-weight: 600;
     color: rgb(255, 255, 255);
     width: 150px;
     height: 50px;
+    margin: 0 auto;
+    justify-content: center;
     align-items: center;
+    text-align: center;
     border: none;
     border-radius: 12px;
     background: rgb(6, 6, 6);
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
+
+
 
 
 /*footer section*/
 
 footer{
+    margin-top: 0;
     width: 100%;
     height: 520px;
-    
-    position: relative ;
-    margin-top: 800px;
-   
-    
-    
 }
 
 .section-footer{
@@ -399,11 +407,109 @@ li ul{
 
 
 
+/*mobile device design*/
+
+#hr-line{
+    display: none;
+}
+#menu{
+    display: none;
+}
+
+
+
 
 /** responsive design section **/
 
 @media screen and (max-width: 576px) {
+        
         .logo{
             display: none;
+        }
+        .navbar{
+            display: none;
+        }
+        .nav-btn{
+            display: none;
+        }
+
+        #hr-line{
+            display: block;
+            margin-top: 5px;
+        }
+        #menu{
+            display: block;
+            margin-left: 20px;
+        }
+        #nav-img{
+            margin: 0;
+            display: block;
+            margin-right: 100px;
+        }
+
+        .banner{
+            
+            flex-direction: column-reverse;
+            align-items: center;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        .hero-img{
+            width: 350px;
+            margin-left: 55px;
+        }
+
+        .banner-contant{
+            width: 400px;
+            align-items: center;
+        }
+        .banner-title{
+            font-size: 2.5rem;
+            width: 350px;
+            align-items: center;
+            margin-left: 30px;
+        }
+        .banner-description{
+            font-size: 1rem;
+            align-items: center;
+            margin-left: 30px;
+
+        }
+
+        /*standard-curriculum*/
+
+        .card{
+            flex-direction: column;
+        }
+        .title{
+            height: 50px;
+            font-size: 2rem;
+            align-items: center;
+            text-align: center;
+        }
+
+
+
+        /* our stories*/
+
+        .stories-container{
+            width: 290px;
+            height: 300px;
+            flex-direction: column;
+            grid-template-columns: repeat(1, 1fr);
+
+        }
+
+        .stories-content1{
+            flex-direction: column;
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+
+        /* footer section*/
+
+        .section-footer{
+            flex-direction: column;
         }
 }
