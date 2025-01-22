@@ -34,7 +34,6 @@
     width: 20px;
     height: 50px;
     background-color: red;
-    border-radius: ;
     margin-bottom: 10px;
 }
 
@@ -152,6 +151,11 @@
     background-repeat: no-repeat;
     
 }
+
+.bg-1{
+    background: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+   
+}
 /** Standard Curriculum section **/
 
 
@@ -231,6 +235,113 @@
 }
 
 
+/*our stories section*/
+
+.stories-container{
+    width: 540.27px;
+    height: 630.52px;
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+
+}
+
+.main-container{
+    width: 540.27px;
+    height: 630.52px;
+    position: relative;
+    display: inline-block;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+
+}
+
+.main-content img{
+    width: 100%;
+    display: block;
+    
+}
+
+.main-content-btn{
+    position: relative;
+    bottom: 35px;
+    left: 30px;
+    width: 180px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    background: rgb(149, 178, 38);
+}
+
+.main-title{
+    font-size: 2rem;
+    margin: 0px 70px 25px 40px;
+    align-items: center;
+    text-align: left;
+   
+}
+.main-description{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-right: 40px;
+    margin-left: 35px;
+    padding: 0px 25px 0px 0px;
+    color: rgb(102, 102, 102);
+    text-align: left;
+
+}
+
+.stories-content1{
+    
+    width: 290.69px;
+    height: 301.61px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.sub-container{
+    width: 290.69px;
+    height: 301.61px;
+    position: relative;
+    display: inline-block;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+
+}
+
+.sub-content-btn{
+    position: relative;
+    bottom: 35px;
+    left: 30px;
+    width: 180px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    background: rgb(149, 178, 38);
+}
+
+.sub-title{
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-align: center;
+    margin:0px 35px 25px 35px;
+}
+
+
+.section-btn{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    border: none;
+    border-radius: 12px;
+    background: rgb(6, 6, 6);
+}
+
 
 /** shered style **/
 
@@ -244,6 +355,7 @@
     font-weight: 700;
     text-align: center;
     margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 
